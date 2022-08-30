@@ -14,17 +14,4 @@ router.get("/", async (req, res) => {
   }
 });
 
-//GET one restaurant
-router.delete("/:id", async (req, res) => {
-  let restaurantId = req.params.id;
-
-  try {
-      let results = await db(`SELECT * FROM favRestaurants WHERE restaurant_id = ${recipeId}`);
-      let restaurant = result.data;
-      res.send(restaurant);
-      } catch (err) {
-      res.status(500).send({ error: err.message });
-  }
-});
-
 module.exports = router

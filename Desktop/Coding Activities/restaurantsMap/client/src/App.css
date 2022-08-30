@@ -1,15 +1,47 @@
 .AppContainer {
-    background: url('https://images.unsplash.com/photo-1610894803089-0c3283d8d059?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2835&q=80');
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url('https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2942&q=80');
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
+    /* opacity: 0.7; */
 }
 
 .AppContainer h1 {
-    font-size: 64px;
-    color: white;
-    padding-top: 20px;
+    font-family: 'Monoton', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(252, 193, 90);
+    text-shadow: 2px 2px #534826;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px 35px 10px;
 }
+
+
+/* 
+
+Best:
+Monoton
+
+Yeseva One
+
+El Messiri
+
+Bebas Neue
+
+Alumni Sans Pinstripe
+
+Poiret One
+
+Raleway Dots
+
+https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80
+https://images.unsplash.com/photo-1564406455859-a7e229c9cc10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80
+https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
+https://images.unsplash.com/photo-1582228096960-7f5d2ec4aa8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2835&q=80
+https://images.unsplash.com/photo-1540224769541-7e6e20a42330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2788&q=80
+*/

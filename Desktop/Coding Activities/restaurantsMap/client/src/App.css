@@ -1,1 +1,15 @@
-.RestaurantsMap { height: 500px; }
+.AppContainer {
+    background: url('https://images.unsplash.com/photo-1610894803089-0c3283d8d059?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2835&q=80');
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.AppContainer h1 {
+    font-size: 64px;
+    color: white;
+    padding-top: 20px;
+}

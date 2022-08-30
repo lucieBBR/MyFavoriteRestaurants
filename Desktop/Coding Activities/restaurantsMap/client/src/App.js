@@ -1,6 +1,6 @@
 import './App.css';
+import RestaurantsMap from './components/RestaurantsMap';
 import React, { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 function App() {
   const [restaurants, setRestaurants] = useState([]);
@@ -25,26 +25,10 @@ function App() {
 }
 
   return (
-    <MapContainer className="RestaurantsMap" 
-                  center={[47.373878, 8.545094]} 
-                  zoom={5} 
-                  scrollWheelZoom={false}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-       {
-         restaurants.map(r => (
-                    <Marker position={Object.values(r.geo)}>
-                        <Popup>
-                            { r.restaurant_name } <br /> 
-                            { r.restaurant_description } <br /> 
-                            { `${r.street} ${r.housenum}, ${r.city}, ${r.country}` }
-                        </Popup>
-                    </Marker>
-                ))
-            }
-    </MapContainer>
+    <div className="AppContainer">
+      <h1> My Favorite Restaurants </h1>
+      <RestaurantsMap restaurants={restaurants}/>
+    </div>
   );
 }
 

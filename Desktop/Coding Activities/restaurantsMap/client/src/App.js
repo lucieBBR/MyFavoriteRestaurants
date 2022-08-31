@@ -9,7 +9,7 @@ function App() {
     getRestaurants();  
 }, []);
 
-  // GET all restaurants
+  // GET all restaurants details (including coordinates) and save it to restaurants state
   async function getRestaurants() {
     try {
         let response = await fetch('/restaurants');
@@ -28,6 +28,9 @@ function App() {
     <div className="AppContainer">
       <h1> My Favorite Restaurants </h1>
       <RestaurantsMap restaurants={restaurants}/>
+      <div className='footer'>
+        <p> Made by Lucie Baborová for Nomoko </p>
+      </div>
     </div>
   );
 }

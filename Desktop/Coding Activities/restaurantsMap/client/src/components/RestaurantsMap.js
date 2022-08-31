@@ -16,10 +16,16 @@ function RestaurantsMap(props) {
          props.restaurants.map(r => (
                     <Marker key={r.restaurant_id} position={Object.values(r.geo)}>
                         <Popup className="PopUp">
-                            <h2 style={{fontWeight: "bold"}}>{ r.restaurant_name }</h2>
-                            <img src={ r.img }></img>
-                            <p style={{fontStyle: "italic"}}>{ r.restaurant_description }</p>
-                            <p style={{fontSize: "smaller"}}>{ `${r.street} ${r.housenum}, ${r.city}, ${r.country}` }</p> 
+                            <div className='grid'>
+                              <div>
+                                <h2 style={{fontWeight: "bold", fontSize: "16px"}}>{ r.restaurant_name }</h2>
+                                <p style={{fontStyle: "italic", fontSize: "10px"}}>{ r.restaurant_description }</p>
+                                <p style={{fontSize: "8px"}}>{ `${r.street} ${r.housenum}, ${r.city}, ${r.country}` }</p>
+                              </div>
+                              <div> 
+                                <img src={ r.img }></img>
+                              </div>
+                            </div>
                         </Popup>
                     </Marker>
                 ))

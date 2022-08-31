@@ -21,3 +21,4 @@ VALUES
     (4, "Racó de la Vila", "Where I take my visits for Paella", "Carrer de la Ciutat de Granada", 33, "Barcelona", "Spain", POINT(41.3974371, 2.1990673), "https://images.unsplash.com/photo-1630175889154-13c84d513e1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"),
     (5, "La Paradeta", "Part of a chain, but with original concept and fresh fish", "Carrer de Riego", 27, "Barcelona", "Spain", POINT(41.3766194, 2.1383174), "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
 
+-- images from Unsplash, Artists: Spencer Chow, Mary West, Krisztian Tabori, Sandra Wei, Mike Bergmann

@@ -6,7 +6,15 @@
     border-radius: 3%;
 }
 
+.PopUp {
+    height: 150px;
+    width: 180px;
+    text-size-adjust:inherit; 
+}
+
 img {
-    height: 50px;
-    width: 50px;
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    padding: 0px;
 }

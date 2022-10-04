@@ -29,7 +29,7 @@ function App() {
       <h1> My Favorite Restaurants </h1>
       <RestaurantsMap restaurants={restaurants}/>
       <div className='footer'>
-        <p> Made by Lucie Baborová for Nomoko </p>
+        <p> Map project by Lucie Baborová  </p>
       </div>
     </div>
   );

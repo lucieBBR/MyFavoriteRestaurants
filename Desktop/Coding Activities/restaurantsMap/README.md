@@ -2,7 +2,7 @@
 
 - A map application with pins to my 5 favorite restaurants.
 
-![App screenshot](./public/images/appScreenshot.png)
+![App screenshot](./public/images/mapProject.png)
 
 The application consists of:
 

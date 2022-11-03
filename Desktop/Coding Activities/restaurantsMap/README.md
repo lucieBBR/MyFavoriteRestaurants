@@ -28,13 +28,13 @@ The application consists of:
 
 ### Database Prep
 
-- Create a database called `NomokoTaskLB` through your SQL cli.
+- Create a database called `RestaurantsApp` through your SQL cli.
 
 - Create a .env file in the project directory and add the info below; Make sure to change the DB_USER and DB_PASS to the username and password to your SQL cli :
 
       ```
       DB_HOST=localhost 
-      DB_NAME=NomokoTaskLB
+      DB_NAME=RestaurantsApp
       DB_USER=USER_NAME
       DB_PASS=YOUR_PASSWORD
       ```
